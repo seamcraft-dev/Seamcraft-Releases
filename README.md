@@ -7,8 +7,9 @@ principals across environments and tenants.
 `Seamcraft.App-win-Setup.exe` from the release's assets and run it.
 
 - It installs for your Windows user only, with no admin prompt, and needs nothing else installed.
-- The installer isn't code-signed yet, so Windows SmartScreen may say "Windows protected your PC". Choose
-  **More info**, then **Run anyway**.
+- The installer is signed by Common Data Solutions LLC. Windows SmartScreen may still say "Windows protected your PC"
+  for a newly released version, until enough people have downloaded it. If it does, choose **More info**, check that
+  the publisher is Common Data Solutions LLC, then choose **Run anyway**.
 - `Seamcraft.App-win-Portable.zip` runs without installing.
 - Your data stays on your computer, in `%LOCALAPPDATA%\Seamcraft`.
 
